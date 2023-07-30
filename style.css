@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'montserrat', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+}
+
+.class-pai {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+h1 {
+    width: 100%;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.label {
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+}
+
+label {
+    margin-top: 5px;
+    
+}
+.input-form {
+    width: 240px;
+}
+
+#button-submit {
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+#button-submit:hover {
+    background-color: rgb(70, 134, 163);
+
+}
+
+#button-cadastro {
+    display: block;
+}
